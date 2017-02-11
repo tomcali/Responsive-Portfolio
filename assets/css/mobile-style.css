@@ -1,0 +1,251 @@
+/* for mobile devices, we reduce values on all size fields */
+
+body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 13px;  /* about 70 percent of orginal setting */
+  color: #777;
+  line-height: 24px;  /* about 70 percent of orginal setting */
+  background: url("../images/concrete_seamless.png");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/*general*/
+
+.container {
+  clear: both;
+  margin: 0 auto;
+  width: 100%; 
+  max-width: 670px;  /* about 70 percent of orginal setting */
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 14px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #4aaaa5;
+  font-weight: 500; /* about 70 percent of orginal setting */
+}
+
+h1 {
+  padding-bottom: 14px;   /* about 70 percent of orginal setting */
+  font-size: 21px;  /* about 70 percent of orginal setting */
+  line-height: 35px;  /* about 70 percent of orginal setting */
+  border-bottom: 2px solid #ddd;  /* about 70 percent of orginal setting */
+}
+
+h2,
+h3 {
+  font-size: 14px;  /* about 70 percent of orginal setting */
+}
+
+
+/*header*/
+
+#masthead {
+  position: fixed;
+  z-index: 99;
+  margin: 0 0 20px;  /* about 70 percent of orginal setting */
+  overflow: auto;
+  width: 100%;
+  color: #fff;
+  background: #fff;
+  border-bottom: 2px solid #ccc;
+}
+
+#logo {
+  width: 175px; /* about 70 percent of orginal setting */
+  height: 63px; /* about 70 percent of orginal setting */
+  float: left;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  text-align: center;
+  line-height: 63px; /* about 70 percent of orginal setting */
+  color: #fff;
+  font-weight: 500; /* about 70 percent of orginal setting */
+  font-size: 21px; /* about 70 percent of orginal setting */
+  text-decoration: none;
+  background: #4aaaa5;
+}
+
+nav {
+  float: right;
+  margin-top: 18px; /* about 70 percent of orginal setting */
+}
+
+nav a {
+  display: inline-block;
+  margin-left: 11px; /* about 70 percent of orginal setting */
+  padding-left: 11px; /* about 70 percent of orginal setting */
+  color: #999;
+  text-decoration: none;
+  line-height: 13px; /* about 70 percent of orginal setting */
+  border-left: 1px solid #efefef;
+}
+
+nav a:first-child {
+  border-left: 0 none;
+}
+
+
+/*footer*/
+
+footer {
+  padding: 21px 0; /* about 70 percent of orginal setting */
+  clear: both;
+  color: #fff;
+  color: #ccc;
+  font-size: 9px; /* about 70 percent of orginal setting */
+  text-align: center;
+  background: #666;
+  border-top: 6px solid #4aaaa5; /* about 70 percent of orginal setting */
+}
+
+
+/*sidebar*/
+
+.sidebar {
+  padding: 21px;  /* about 70 percent of orginal setting */
+  width: 100%; /* about 70 percent of orginal setting */
+  max-width: 190px; /* about 70 percent of orginal setting */
+  float: right;
+  margin-bottom: 14px; /* about 70 percent of orginal setting */
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+h3,
+.sidebar h2 {
+  padding-bottom: 14px; /* about 70 percent of orginal setting */
+  margin-bottom: 11px; /* about 70 percent of orginal setting */
+  line-height: 15px; /* about 70 percent of orginal setting */
+  border-bottom: 2px solid #eee; /* about 70 percent of orginal setting */
+}
+
+.social {
+  width: 44px; /* about 70 percent of orginal setting */
+  height: 44px; /* about 70 percent of orginal setting */
+  margin-top: 6px; /* about 70 percent of orginal setting */
+  margin-right: 4px; /* about 70 percent of orginal setting */
+}
+
+.social:last-child {
+  margin-right: 0;
+}
+
+
+/*main*/
+
+#main-container {
+  padding-top: 90px; /* about 70 percent of orginal setting */
+}
+
+.main-section {
+  padding: 21px; /* about 70 percent of orginal setting */
+  margin: 0 0 40px 0; /* about 70 percent of orginal setting */
+  width: 100%; /* about 70 percent of orginal setting */
+  max-width: 455px; /* about 70 percent of orginal setting */
+  float: left;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+
+/*portfolio page*/
+
+.work {
+  position: relative;
+  width: 190px; /* about 70 percent of orginal setting */
+  overflow: auto;
+  float: left;
+  margin: 14px 0 15px; /* about 70 percent of orginal setting */
+}
+
+
+.work:nth-child(even) {
+  margin-right: 28px; /* about 70 percent of orginal setting */
+}
+
+
+.work img {
+  width: 100%;
+  border: 7px; /* about 70 percent of orginal setting */
+  padding: 7px; /* about 70 percent of orginal setting */
+  opacity: .7px; /* about 70 percent of orginal setting */
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 7px; /* about 70 percent of orginal setting */
+  margin-bottom: 0;
+  padding: 11px; /* about 70 percent of orginal setting */
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  line-height: 24px; /* about 70 percent of orginal setting */
+  font-weight: 240; /* about 70 percent of orginal setting */
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+.auth-image {
+  width: 140px; /* about 70 percent of orginal setting */
+  height: auto;
+  margin-top: 70px; /* about 70 percent of orginal setting */
+  margin-right: 15px; /* about 70 percent of orginal setting */
+  float: left;
+}
+
+
+/*contact page*/
+
+#contact-form ul {
+  margin-bottom: 14px; /* about 70 percent of orginal setting */
+}
+
+#contact-form li {
+  margin-bottom: 7px; /* about 70 percent of orginal setting */
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px; /* about 70 percent of orginal setting */
+  padding: 0 7px; /* about 70 percent of orginal setting */
+  font-size: 11px; /* about 70 percent of orginal setting */
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 140px; /* about 70 percent of orginal setting */
+}
+
+input[type=submit] {
+  padding: 7px 21px; /* about 70 percent of orginal setting */
+  color: #fff;
+  font-size: 15px; /* about 70 percent of orginal setting */
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
+}
